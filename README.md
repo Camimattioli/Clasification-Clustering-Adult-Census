@@ -28,4 +28,4 @@ Machine Learning Repository), aplicando un proceso completo de limpieza, preproc
 - Un análisis ético señala que variables como race, sex y native-country requieren tratamiento cuidadoso para evitar tanto la identificación indirecta de personas como el uso discriminatorio de las predicciones del modelo en contextos sensibles (ej. crédito, contratación).
 
 ## Ver el notebook completo
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1wSfE3gYychv8gXHQTnP_tWsIdF4QHJoW/view?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Camimattioli/Clasificacion-Clustering-Adult-Census/blob/main/Adult_Census_Analisis.ipynb)
