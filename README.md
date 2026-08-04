@@ -1,3 +1,37 @@
+# Classification and Clustering - Adult Census Income
+
+Income level prediction (>50K or <=50K per year) and population segmentation 
+based on the Adult Census dataset (UCI), including an analysis of the 
+associated ethical risks.
+
+## Objective
+Predict whether a person earns more or less than USD 50,000 per year based on 
+demographic and employment variables (the Adult dataset from the UCI Machine 
+Learning Repository), applying a full process of cleaning, preprocessing, 
+classification (Decision Tree), and clustering (DBSCAN).
+
+## Tools used
+- Python (pandas, numpy)
+- scikit-learn (MinMaxScaler, OneHotEncoder, LabelEncoder, DecisionTreeClassifier, DBSCAN, PCA, among others)
+- matplotlib, seaborn
+
+## Process
+1. Handling missing values
+2. Outlier detection
+3. Variable encoding
+4. Classification with Decision Tree
+5. Clustering with DBSCAN (with and without PCA)
+
+## Main results
+- After cleaning (removing nulls in 'workclass', 'occupation', and 'native-country'), the resulting dataset was smaller but consistent, without introducing significant bias since the nulls were not concentrated in a particular income class.
+- The Decision Tree achieved an accuracy of 0.82, acceptable as a first baseline model, though insufficient on its own given the dataset's class imbalance (it is recommended to complement it with metrics such as precision/recall or F1 per class).
+- DBSCAN with PCA reduction made it possible to identify natural groupings in the data, although with some loss of interpretability of the original variables; the comparison without PCA confirmed that dimensionality reduction was necessary to obtain interpretable clusters within a reasonable amount of time.
+
+## Notebook
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Camimattioli/Clasificacion-Clustering-Adult-Census/blob/main/Adult_Census_Analisis.ipynb)
+
+--------------------------------------
+
 # Clasificación y Clustering - Adult Census Income
 
 Predicción de nivel de ingreso (>50K o <=50K anuales) y segmentación de 
