@@ -1,8 +1,7 @@
 # Classification and Clustering - Adult Census Income
 
 Income level prediction (>50K or <=50K per year) and population segmentation 
-based on the Adult Census dataset (UCI), including an analysis of the 
-associated ethical risks.
+based on the Adult Census dataset (UCI).
 
 ## Objective
 Predict whether a person earns more or less than USD 50,000 per year based on 
@@ -35,8 +34,7 @@ classification (Decision Tree), and clustering (DBSCAN).
 # Clasificación y Clustering - Adult Census Income
 
 Predicción de nivel de ingreso (>50K o <=50K anuales) y segmentación de 
-personas a partir del dataset Adult Census (UCI), con análisis de riesgos 
-éticos asociados.
+personas a partir del dataset Adult Census (UCI).
 
 ## Objetivo
 Predecir si una persona gana más o menos de USD 50.000 anuales a partir de variables demográficas y laborales (dataset Adult de UCI
